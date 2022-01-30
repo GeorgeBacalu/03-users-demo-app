@@ -1,0 +1,39 @@
+.user {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.actions {
+  text-align: right;
+  padding-left: 15px;
+  margin-top: -20px;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
+
+.actions button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.actions button.alternative:hover,
+.actions button.alternative:active {
+  background-color: #ddb3f8;
+}
